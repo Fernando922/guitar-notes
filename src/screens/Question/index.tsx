@@ -23,8 +23,8 @@ const Question = () => {
   const {navigate, addListener} =
     useNavigation<StackNavigationProp<RootStackParamList>>();
 
-  const [note, setNote] = useState('F');
-  const [stringName, setStringName] = useState('E');
+  const [note, setNote] = useState('');
+  const [stringName, setStringName] = useState('');
   const [answer, setAnswer] = useState('');
   const [userResponse, setUserResponse] = useState('');
 
