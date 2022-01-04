@@ -17,7 +17,7 @@ import {
 } from './styles';
 import {RootStackParamList} from './types';
 import {Alert} from 'react-native';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/images/logo.jpg';
 
 const Question = () => {
   const {navigate, addListener} =

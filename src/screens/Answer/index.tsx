@@ -15,7 +15,7 @@ import {
 } from './styles';
 import {Params} from './types';
 
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/images/logo.jpg';
 
 const Answer = () => {
   const {params} = useRoute<RouteProp<Params, 'Answer'>>();
